@@ -4,6 +4,30 @@ Product Management stajı teknik sınavı için kişisel, tamamen yerel bir SQL 
 Her konu kısa bir anlatımla başlar, ardından sorular gelir. Kodunu yazarsın, **Çalıştır** ile sonucu görürsün, **Kontrol et** ile değerlendirilirsin.
 Arayüz ve geri bildirimler Türkçedir. Harici API, hesap veya internet gerektirmez.
 
+## iPhone'da kullanma (ana ekrana ekle)
+
+Uygulamanın tarayıcı sürümü tamamen cihazda çalışır; sunucu, hesap veya API gerektirmez.
+
+1. iPhone'da **Safari** ile https://curarda.github.io/sql-python-calisma/ adresini aç.
+2. Alt ortadaki **Paylaş** (kare + yukarı ok) düğmesine dokun.
+3. **Ana Ekrana Ekle**'yi seç, sonra **Ekle**'ye dokun.
+
+Ana ekrandaki simgeden açtığında tarayıcı çubuğu olmadan tam ekran çalışır.
+
+- İlk açılışta Python ortamı (Pyodide, pandas) internetten indirilir ve birkaç dakika sürebilir. Bu bir kez olur; sayfayı tamamen yüklediğinde sonraki açılışlarda çevrimdışı da çalışır.
+- İlerleme yalnızca o cihazın tarayıcısında (localStorage) saklanır. Mac'teki Streamlit sürümüyle ya da başka cihazla paylaşılmaz.
+- Kod, 5 saniyeden uzun sürerse durdurulur ve sayfa donmaz.
+
+### Tarayıcı sürümünü güncelleme (geliştirici)
+
+Tarayıcı sürümü `web/` ve kök Python dosyalarından üretilir; `docs/` klasörü GitHub Pages'in yayınladığı çıktıdır.
+
+```bash
+python3 scripts/build_web.py
+```
+
+Sonra `docs/` değişikliklerini commit edip push et. Testler `docs/py` kopyalarının kaynakla eşleştiğini kontrol eder.
+
 ## Kurulum
 
 Python 3.11 veya üstü gerekir.
