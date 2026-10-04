@@ -1,0 +1,16 @@
+[
+  "browser_entry.py",
+  "checker.py",
+  "curriculum/__init__.py",
+  "curriculum/gun1.py",
+  "curriculum/gun2.py",
+  "curriculum/gun3.py",
+  "curriculum/gun4.py",
+  "curriculum/gun5.py",
+  "curriculum/gun6.py",
+  "curriculum/gun7.py",
+  "curriculum/models.py",
+  "data.py",
+  "sandbox.py",
+  "sandbox_runner.py"
+]
