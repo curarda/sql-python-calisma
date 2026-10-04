@@ -8,7 +8,7 @@ Arayüz ve geri bildirimler Türkçedir. Harici API, hesap veya internet gerekti
 
 Uygulamanın tarayıcı sürümü tamamen cihazda çalışır; sunucu, hesap veya API gerektirmez.
 
-1. iPhone'da **Safari** ile https://curarda.github.io/sql-python-calisma/ adresini aç.
+1. iPhone'da **Safari** ile https://curarda.github.io/sql-python-practice/ adresini aç.
 2. Alt ortadaki **Paylaş** (kare + yukarı ok) düğmesine dokun.
 3. **Ana Ekrana Ekle**'yi seç, sonra **Ekle**'ye dokun.
 
